@@ -1,0 +1,80 @@
+body {
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.divider {
+  border-top: 0.05rem solid #e5e5e5 !important;
+}
+
+.btn-primary {
+  background-color: #171b1f !important;
+  color: #fff;
+  width: 100%;
+  border: 0px !important;
+}
+.btn-primary:hover {
+  background-color: #434f5b !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.form-input:focus {
+  border-color: #888 !important;
+  box-shadow: 0 0 0 0.1rem rgba(87, 85, 217, 0.2);
+}
+.form-input:not(:placeholder-shown):invalid {
+  border-color: #888 !important;
+  box-shadow: none;
+}
+
+.faicons i {
+  opacity: 0.75;
+}
+.faicons i:hover {
+  opacity: 1;
+}
+
+.header {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 18px;
+}
+.header h1 {
+  padding-top: 3em;
+  letter-spacing: 15px;
+}
+.header h1 a {
+  color: #fff;
+}
+.header h1 a:hover, .header h1 a:focus, .header h1 a:active {
+  text-decoration: none;
+}
+.header .platforms {
+  padding-top: 2em;
+}
+.header .platforms i {
+  margin-right: 15px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.footer {
+  padding: 5em;
+  font-size: 12px;
+}
+.footer .platforms {
+  padding-bottom: 2em;
+}
+.footer .platforms i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+.footer i {
+  color: #222;
+}

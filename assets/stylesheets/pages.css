@@ -1,0 +1,68 @@
+.albums .album {
+  margin: auto;
+  max-width: 500px;
+}
+.albums .album img {
+  max-height: 250px;
+  margin: auto;
+}
+
+#lukamari-supporters {
+  margin-top: 3em;
+}
+
+a.link-btn, a.chart-link {
+  padding: 1px;
+  color: #333 !important;
+  border-bottom: 1px solid #333;
+}
+a.link-btn:hover, a.chart-link:hover {
+  background: #333;
+  color: #fff !important;
+}
+a.link-btn:hover, a.chart-link:hover, a.link-btn:focus, a.chart-link:focus, a.link-btn:active, a.chart-link:active {
+  text-decoration: none;
+}
+a.link-btn:hover {
+  padding: 5px;
+}
+a.nav-link {
+  color: #555 !important;
+}
+
+.md-container, .download {
+  margin: auto;
+  max-width: 350px;
+}
+.md-container p, .download p {
+  margin: 0 0 0.5rem !important;
+}
+
+figure .hover-img img.hoverable {
+  display: none;
+}
+figure .hover-img:hover img:first-child {
+  display: none;
+}
+figure .hover-img:hover img.hoverable {
+  display: block;
+}
+
+.lukamari-campaign {
+  margin: auto;
+  max-width: 600px;
+}
+.lukamari-campaign figure img {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 2em;
+}
+.lukamari-campaign p {
+  margin: 0 0 0.5rem !important;
+}
+.lukamari-campaign .campaign-body p {
+  line-height: 30px;
+}
+.lukamari-campaign a:hover, .lukamari-campaign a:focus, .lukamari-campaign a:active {
+  box-shadow: none !important;
+}
